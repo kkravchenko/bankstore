@@ -1,20 +1,20 @@
 import { Service as IService } from '@/type.dt'
 
 export class Service implements IService {
-  #id: number
+  #id: string
   #typeOfService: string
-  #price: number
+  #price: string
   #serviceDescription: string
   #expTime: string
-  #status: 'active' | 'inactive' | 'pending'
+  #status: string
 
   constructor(
-    id: number,
+    id: string,
     typeOfService: string,
-    price: number,
+    price: string,
     serviceDescription: string,
     expTime: string,
-    status: 'active' | 'inactive' | 'pending'
+    status: string
   ) {
     this.#id = id
     this.#typeOfService = typeOfService

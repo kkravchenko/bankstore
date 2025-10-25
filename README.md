@@ -4,7 +4,7 @@ Next.js
 
 ### Getting Started
 
-1. clone ..
+1. git clone https://github.com/kkravchenko/bankstore.git
 2. npm i
 3. Run:
 
@@ -17,5 +17,11 @@ pnpm dev
 # or
 bun dev
 ```
+
+### Live demo
+
+https://bankstoreai.netlify.com
+
+---
 
 Developed by Konstantin Kravchenko

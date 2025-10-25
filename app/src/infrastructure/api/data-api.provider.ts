@@ -1,4 +1,5 @@
 import { Data } from '@/type.dt'
+import JsonData from '@/data/data.json'
 
 interface IDataApiProvider {
   getData(): Promise<Data>
@@ -44,9 +45,7 @@ export class DataApiProvider implements IDataApiProvider {
   }
 
   private async fetchData(): Promise<Data> {
-    const res = await fetch('http://localhost:3000/data/data.json')
-    if (!res.ok) throw new Error('Failed to fetch data')
-    return res.json()
+    return JsonData
   }
 
   get isLoading(): boolean {
@@ -59,14 +58,3 @@ export class DataApiProvider implements IDataApiProvider {
     this.loading = false
   }
 }
-
-// // app/page.tsx
-// import { DataApiProvider } from '@/infrastructure/api/data-api.provider';
-// import ClientDataView from './ClientDataView';
-
-// export default async function Page() {
-//   const provider = DataApiProvider.getInstance();
-//   const data = await provider.getData(); // Один запрос на сервер
-
-//   return <ClientDataView initialData={data} isLoading={provider.isLoading} />;
-// }

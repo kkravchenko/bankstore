@@ -3,16 +3,16 @@ import { JSX } from 'react'
 export interface User {
   name: string
   role: string
-  image: string
+  image?: string
 }
 
 export interface Service {
-  id: number
+  id: string
   typeOfService: string
-  price: number
+  price: string
   serviceDescription: string
   expTime: string
-  status: 'active' | 'inactive' | 'pending'
+  status: string
 }
 
 export interface Data {
@@ -39,5 +39,5 @@ export interface SocialItem {
 export interface Country {
   value: string | number
   label: string
-  select: boolean
+  select?: boolean
 }
