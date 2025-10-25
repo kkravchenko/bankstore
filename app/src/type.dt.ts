@@ -7,9 +7,9 @@ export interface User {
 }
 
 export interface Service {
-  id: string
+  id: number
   typeOfService: string
-  price: string
+  price: number
   serviceDescription: string
   expTime: string
   status: string

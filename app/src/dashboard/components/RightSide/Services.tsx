@@ -31,7 +31,7 @@ export default ({ services }: ServicesProps) => {
       field: 'price',
       text: 'Price',
       width: '6%',
-      format: (value: string) => <>${Number(value).toLocaleString('en-US')}</>,
+      format: (value: number) => <>${value.toLocaleString('en-US')}</>,
     },
     {
       field: 'serviceDescription',

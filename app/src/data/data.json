@@ -12,57 +12,57 @@
   },
   "services": [
     {
-      "id": "1",
+      "id": 1,
       "typeOfService": "License Incorporation",
-      "price": "5000",
+      "price": 5000,
       "serviceDescription": "Incorporate your license with full compliance.",
       "expTime": "3 Biz.&#160;Days",
       "status": "Pending"
     },
     {
-      "id": "2",
+      "id": 2,
       "typeOfService": "Accounting & Audit",
-      "price": "2000",
+      "price": 2000,
       "serviceDescription": "Long-term cooperation, good pricing and flexibility.",
       "expTime": "6 Biz.&#160;Days",
       "status": "Pending"
     },
     {
-      "id": "3",
+      "id": 3,
       "typeOfService": "Opening Accounts",
-      "price": "6000",
+      "price": 6000,
       "serviceDescription": "Open local or global business accounts.",
       "expTime": "2 Biz.&#160;Days",
       "status": "Pending"
     },
     {
-      "id": "4",
+      "id": 4,
       "typeOfService": "License Incorporation",
-      "price": "5000",
+      "price": 5000,
       "serviceDescription": "Incorporate your license with full compliance.",
       "expTime": "3 Biz.&#160;Days",
       "status": "Pending"
     },
     {
-      "id": "5",
+      "id": 5,
       "typeOfService": "Accounting & Audit",
-      "price": "2000",
+      "price": 2000,
       "serviceDescription": "Long-term cooperation, good pricing and flexibility.",
       "expTime": "6 Biz.&#160;Days",
       "status": "Pending"
     },
     {
-      "id": "6",
+      "id": 6,
       "typeOfService": "Opening Accounts",
-      "price": "6000",
+      "price": 6000,
       "serviceDescription": "Open local or global business accounts.",
       "expTime": "2 Biz.&#160;Days",
       "status": "Pending"
     },
     {
-      "id": "7",
+      "id": 7,
       "typeOfService": "License Incorporation",
-      "price": "5000",
+      "price": 5000,
       "serviceDescription": "Incorporate your license with full compliance.",
       "expTime": "3 Biz.&#160;Days",
       "status": "Pending"

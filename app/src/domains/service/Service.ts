@@ -1,17 +1,17 @@
 import { Service as IService } from '@/type.dt'
 
 export class Service implements IService {
-  #id: string
+  #id: number
   #typeOfService: string
-  #price: string
+  #price: number
   #serviceDescription: string
   #expTime: string
   #status: string
 
   constructor(
-    id: string,
+    id: number,
     typeOfService: string,
-    price: string,
+    price: number,
     serviceDescription: string,
     expTime: string,
     status: string
