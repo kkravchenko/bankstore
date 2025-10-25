@@ -20,7 +20,7 @@ bun dev
 
 ### Live demo
 
-https://bankstoreai.netlify.com
+https://bankstoreai.netlify.app
 
 ---
 
